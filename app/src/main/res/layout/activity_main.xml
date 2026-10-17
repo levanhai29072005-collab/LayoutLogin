@@ -126,4 +126,49 @@
             </RadioGroup>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+    <!-- Card 3: Cai dat he thong voi Switch -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardCaiDat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvTieuDeCard3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tùy chọn hệ thống"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="12dp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/swNhanThongBao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nhận thông báo qua Email"
+                android:textSize="15sp"
+                android:checked="true"
+                android:minHeight="48dp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/swGiaoDienToi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chế độ giao diện tối (Dark mode)"
+                android:textSize="15sp"
+                android:minHeight="48dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 </ScrollView>
