@@ -25,4 +25,49 @@
             android:layout_marginBottom="20dp" />
 
     </LinearLayout>
+    <!-- Card 1: Thong tin ca nhan -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardThongTin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvTieuDeCard1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thông tin cá nhân"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/edtHoTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập họ và tên"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập địa chỉ email"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 </ScrollView>
