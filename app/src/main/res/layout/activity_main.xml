@@ -171,4 +171,14 @@
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+    <!-- Nut Luu Thiet Lap -->
+    <Button
+        android:id="@+id/btnLuuThietLap"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Lưu thiết lập"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1A237E" />
 </ScrollView>
