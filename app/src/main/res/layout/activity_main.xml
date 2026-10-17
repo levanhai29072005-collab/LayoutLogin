@@ -181,4 +181,17 @@
         android:textStyle="bold"
         android:textColor="#FFFFFF"
         android:backgroundTint="#1A237E" />
+    <!-- TextView hien thi ket qua thay doi sau khi bam nut -->
+    <TextView
+        android:id="@+id/tvKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chưa có thông tin được lưu"
+        android:textSize="16sp"
+        android:textColor="#D32F2F"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="#E8EAF6"
+        android:layout_marginTop="16dp" />
 </ScrollView>
